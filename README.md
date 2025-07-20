@@ -22,19 +22,19 @@ Develop, test, and deploy a **Java full stack microservice** that provides the *
 
 ## Functional Requirements
 
-✅ 3-day weather forecast by city  
-✅ Offline fallback support  
-✅ Alert messages for weather conditions  
-✅ React-based responsive UI  
-✅ Secure API key via env variables  
-✅ Swagger-enabled REST API with HATEOAS  
-✅ Dockerized backend & frontend  
-✅ CI/CD pipeline via CircleCI  
-✅ Terraform provisioning scripts
+- 3-day weather forecast by city  
+- Offline fallback support  
+- Alert messages for weather conditions  
+- React-based responsive UI  
+- Secure API key via env variables  
+- Swagger-enabled REST API with HATEOAS  
+- Dockerized backend & frontend  
+- CI/CD pipeline via CircleCI  
+- Terraform provisioning scripts
 
 ## API Endpoint
 
-**`GET /weather?city=London`**
+**`GET /weatherForecast?city=London`**
 
 # `Payload`
 {
@@ -50,7 +50,7 @@ Develop, test, and deploy a **Java full stack microservice** that provides the *
   ],
   "_links": {
     "self": {
-      "href": "http://localhost:8080/weather?city=London"
+      "href": "http://localhost:8080/weatherForecast?city=London"
     }
   }
 }
