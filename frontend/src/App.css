@@ -1,0 +1,20 @@
+.App {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+input {
+  margin-right: 0.5rem;
+  padding: 0.4rem;
+}
+button {
+  padding: 0.4rem 1rem;
+}
+table {
+  margin-top: 1rem;
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+}
