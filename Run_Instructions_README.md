@@ -11,13 +11,14 @@
 
 ```bash
 cd backend/WeatherForecast/demo
-./mvnw clean package
+mvn clean package
 java -jar target/demo-0.0.1-SNAPSHOT.jar
 ```
 
 Access API:
 ```
-http://localhost:8080/weatherForecast?city=Delhi
+GET method
+http://localhost:8080/weatherForecast?city=London
 ```
 
 ---
@@ -61,7 +62,8 @@ http://localhost:8080/swagger-ui/index.html
 ## Toggle Offline Mode
 
 ```http
-POST http://localhost:8080/weatherForecast/mode?offline=true
+POST method
+http://localhost:8080/weatherForecast/mode?offline=true
 ```
 
 Use `true` or `false` for offline mode.
