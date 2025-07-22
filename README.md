@@ -38,21 +38,32 @@ Develop, test, and deploy a **Java full stack microservice** that provides the *
 
 # `Payload`
 {
-  "city": "London",
-  "forecast": [
-    {
-      "date": "2025-07-21",
-      "tempHigh": 42,
-      "tempLow": 28,
-      "message": "Use sunscreen lotion"
-    },
-    ...
-  ],
-  "_links": {
-    "self": {
-      "href": "http://localhost:8080/weatherForecast?city=London"
+    "city": "London",
+    "forecast": [
+        {
+            "date": "2025-07-22",
+            "tempHigh": 298.38,
+            "tempLow": 289.33,
+            "message": "Use sunscreen lotion"
+        },
+        {
+            "date": "2025-07-23",
+            "tempHigh": 296.19,
+            "tempLow": 288.61,
+            "message": "Carry umbrella"
+        },
+        {
+            "date": "2025-07-24",
+            "tempHigh": 292.57,
+            "tempLow": 287.96,
+            "message": "Carry umbrella"
+        }
+    ],
+    "_links": {
+        "self": {
+            "href": "http://localhost:8080/weatherForecast?city=London"
+        }
     }
-  }
 }
 
 
