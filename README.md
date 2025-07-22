@@ -93,5 +93,11 @@ Includes:
 - 404	City not found
 - 500	Internal server error
 
+ Error Payload
+ {
+    "error": "city not found",
+    "status": 404
+}
+
 ## Author
 Name: Deep Kumar
