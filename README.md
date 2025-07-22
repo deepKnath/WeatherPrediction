@@ -1,5 +1,8 @@
 ##  WeatherPrediction (Spring Boot Microservice + React)
 
+## Run Instruction
+https://github.com/deepKnath/WeatherPrediction/blob/main/Run_Instructions_README.md
+
 ## Problem Statement
 
 Develop, test, and deploy a **Java full stack microservice** that provides the **next 3 days' high and low temperatures** for a given city, along with safety predictions such as:
