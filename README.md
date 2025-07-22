@@ -70,13 +70,13 @@ Develop, test, and deploy a **Java full stack microservice** that provides the *
 2> Toggle offline mode
 **`POST /weatherForecast/toggle?offline=false`**
 
-# `Payload`
+### `Payload`
 Mode set to: ONLINE
 
 3> Check offline mode
 **`GET /weatherForecast/mode`**
 
-# `Payload`
+### `Payload`
 Current mode: ONLINE
 
 ## Sequence Diagram
