@@ -1,7 +1,7 @@
 ##  WeatherPrediction (Spring Boot Microservice + React)
 
 ## Run Instruction
-https://github.com/deepKnath/WeatherPrediction/blob/main/Run_Instructions_README.md
+[Run_Instructions_README.md](https://github.com/deepKnath/WeatherPrediction/blob/main/Run_Instructions_README.md)
 
 ## Problem Statement
 
