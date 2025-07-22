@@ -14,7 +14,8 @@ function App() {
     setError('');
     setForecast([]);
     try {
-      const res = await fetch(`/weatherForecast?city=${city}`);
+      const baseUrl = process.env.REACT_APP_API_BASE_URL;
+      const res = await fetch(`${baseUrl}/weatherForecast?city=${city}`);
       const body = await res.json();
 
       if (!res.ok) {

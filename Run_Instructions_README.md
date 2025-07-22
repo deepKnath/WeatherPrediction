@@ -5,7 +5,9 @@
 - Maven
 - Docker
 - Git
+- Node.js + npm
 
+## Backend
 ## Build & Run Locally (Without Docker)
 
 
@@ -48,6 +50,34 @@ docker build -t weather-forecast-app .
 
 ---
 
+## Frontend
+
+## Build & Run Locally (Without Docker)
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+Access App:
+```
+http://localhost:3000
+```
+`Make sure backend is running at http://localhost:8080`
+
+---
+
+## Run Frontend in Docker
+
+```bash
+cd frontend
+docker build -t weather-ui .
+docker run -p 3000:80 weather-ui
+```
+
+---
+
 ## Swagger UI
 
 View documentation at:
@@ -71,14 +101,15 @@ Use `true` or `false` for offline mode.
 
 ## CircleCI Setup
 
-1. `.circleci/config.yml` contains necessary setup details.
-2. Push the repo to GitHub.
-3. Connect it to CircleCI.
-4. CircleCI will run build and tests on every push.
+1. `.circleci/config.yml` for `backend` contains necessary setup details.
+2. `.circleci/config-frontend.yml` for `frontend` contains necessary setup details.
+3. Push the repo to GitHub.
+4. Connect it to CircleCI.
+5. CircleCI will run build and tests on every push.
 
 ---
 
-## ✅ Example API Response
+## Example API Response
 
 ```json
 {

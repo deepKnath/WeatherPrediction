@@ -1,0 +1,17 @@
+version: 2.1
+
+jobs:
+  build-frontend:
+    docker:
+      - image: cimg/node:20.11.1
+    working_directory: ~/project/frontend
+    steps:
+      - checkout
+      - run: npm ci
+      - run: npm run build
+
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build-frontend
